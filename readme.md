@@ -12,11 +12,11 @@ Treat the classifier as a conditional probability estimator and conduct a maximu
 
 $$
 \begin{align}
-\hat{x} &= \arg\max_{x\in\mathcal{X}} p(x,y) \\
-    &=\arg\max_{x\in\mathcal{X}} p(y|x)p(x)\\
-    &\approx \arg\max_{x\in\mathcal{X}}f(x)_y p(x)\\
-    &=\arg\max_{x\in\mathcal{X}}\log {f(x)}_y + \log{p(x)}\\
-    &=\arg\min_{x\in\mathcal{X}}\mathcal{L}_1(f(x),y) + \mathcal{L}_2 (x)
+\hat{x} &= {\arg\max}_{x\in\mathcal{X}} p(x,y) \\
+    &={\arg\max}_{x\in\mathcal{X}} p(y|x)p(x)\\
+    &\approx {\arg\max}_{x\in\mathcal{X}}f(x)_y p(x)\\
+    &={\arg\max}_{x\in\mathcal{X}}\log {f(x)}_y + \log{p(x)}\\
+    &={\arg\min}_{x\in\mathcal{X}}\mathcal{L}_1(f(x),y) + \mathcal{L}_2 (x)
     \end{align}
 $$
 
