@@ -1,6 +1,6 @@
 # Use Classifier as Generator
 
-Haoyang Li, Fall 2021, Organized Sep 23th, 2022
+Haoyang Li, Fall 2021, Organized Sep 23th, 2022 ｜ ![visitors](https://visitor-badge.glitch.me/badge?page_id=greenere.use_classifier_as_generator)
 
 This is the repository for the following preprint: https://arxiv.org/abs/2209.09210
 
